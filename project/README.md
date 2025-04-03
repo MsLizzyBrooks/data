@@ -1,1 +1,1 @@
-This is where I can put instructions about the assignment? 
+Your starter file is mySketch.js. 
