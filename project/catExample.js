@@ -1,3 +1,4 @@
+
 let catData; // Variable to store JSON data
 let catFact = "Loading..."; // Default text before data loads
 
@@ -7,8 +8,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
-  
+  createCanvas(600, 400);
+
   
   console.log(catData.fact)
   catFact = catData.fact
@@ -16,7 +17,10 @@ function setup() {
 }
 
 function draw(){
-
+  background("black")
+  textFont('Arial')
+  fill ("white")
+  textSize(14)
     text(catFact, 100,100)
 
 }
